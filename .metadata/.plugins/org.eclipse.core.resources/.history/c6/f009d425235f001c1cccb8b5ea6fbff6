@@ -1,0 +1,31 @@
+package com.cognizant.studentPackage;
+
+public class StudentNaming {
+
+	private StudentDetails vinoth;
+	
+	
+	public StudentNaming() {
+		
+	}
+	public StudentDetails getVinoth() {
+		return vinoth;
+	}
+	public void setVinoth(StudentDetails vinoth) {
+		this.vinoth = vinoth;
+	}
+	
+	
+	void printStudentData()
+	{
+		System.out.println("*********   Vinoth Details   *************");
+		System.out.println("Register No is "+getVinoth().getRegisterNo());
+		System.out.println("Name is "+getVinoth().getName());
+		System.out.println("Address is "+getVinoth().getAddress());
+		System.out.println("Zip code is "+getVinoth().getZipcode());
+		
+		
+	}
+	
+	
+}

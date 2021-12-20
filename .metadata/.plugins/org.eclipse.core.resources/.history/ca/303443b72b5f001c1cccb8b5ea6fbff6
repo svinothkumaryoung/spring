@@ -1,0 +1,48 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	   
+	   <bean id="studentdetails1" class="com.cognizant.studentPackage.StudentNaming">
+	   
+	   <property name="vinoth" >
+	    <bean  class="com.cognizant.studentPackage.StudentDetails">
+	   <property name="RegisterNo" value="100"></property>
+	   <property name="name" value="Vinothkumar Selvaarasan"></property>
+	   <property name="address" value="Chennai"></property>
+	   <property name="zipcode" value="600060"></property>
+	   </bean>
+	   </property>
+	   
+	   <property name="ashok">
+	   <bean class="com.cognizant.studentPackage.StudentDetails">
+	   <property name="RegisterNo" value="101"></property>
+	   <property name="name" value="Ashokkumar Selvaarasan"></property>
+	   <property name="address" value="Karur"></property>
+	   <property name="zipcode" value="639004"></property>
+	   </bean>
+	   </property>
+	   
+	   
+	   <property name="roshan">
+	   <bean class="com.cognizant.studentPackage.StudentDetails">
+	   <property name="RegisterNo" value="102"></property>
+	   <property name="name" value="Roshan Vinothkumar"></property>
+	   <property name="address" value="Chennai"></property>
+	   <property name="zipcode" value="600060"></property>
+	   </bean>
+	   </property>
+	   
+	   
+	   <property name="niranjan">
+	    <bean class="com.cognizant.studentPackage.StudentDetails">
+	   <property name="RegisterNo" value="103"></property>
+	   <property name="name" value="Niranjan Vinothkumar"></property>
+	   <property name="address" value="Chennai"></property>
+	   <property name="zipcode" value="600060"></property>
+	   </bean>
+	   </property>
+	   
+	   </bean>
+</beans>
+	   

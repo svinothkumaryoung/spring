@@ -1,0 +1,28 @@
+package com.cognizant.collections;
+
+import java.util.List;
+
+public class ListImplementations {
+	private List<StudentDetails> studentDetails;
+
+	public List<StudentDetails> getStudentDetails() {
+		return studentDetails;
+	}
+
+	public void setStudentDetails(List<StudentDetails> studentDetails) {
+		this.studentDetails = studentDetails;
+	}
+	public void printData()
+	
+	{
+		for(StudentDetails sd:studentDetails)
+		{
+			System.out.println("Name "+sd.getName()+" Address "+sd.getAddress());
+			System.out.println("Register Number "+sd.getRegisterNo());
+			System.out.println(" Zip Code "+sd.getZipcode());
+		}
+		
+	}
+	
+
+}

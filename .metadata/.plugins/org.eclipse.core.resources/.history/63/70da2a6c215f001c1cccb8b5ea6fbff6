@@ -1,0 +1,28 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	   
+	   <bean id="studentdetails" class="com.cognizant.studentPackage.StudentNaming">
+	   <property name="vinoth" ref="vin"></property>
+	   <property name="ashok" ref="ask"></property>
+	   <property name="roshan" ref="rose"></property>
+	   <property name="niranjan" ref="niju"></property>
+	   </bean>
+	   
+	   <bean id="vin" class="com.cognizant.studentPackage.StudentDetails">
+	   <property name="RegisterNo" value="100"></property>
+	   <property name="name" value="Vinothkumar Selvaarasan"></property>
+	   <property name="address" value="Chennai"></property>
+	   <property name="zipcode" value="600060"></property>
+	   </bean>
+	   
+	   <bean id="ask" class="com.cognizant.studentPackage.StudentDetails">
+	   <property name="RegisterNo" value="100"></property>
+	   <property name="name" value="Vinothkumar Selvaarasan"></property>
+	   <property name="address" value="Chennai"></property>
+	   <property name="zipcode" value="600060"></property>
+	   </bean>
+	   
+</beans>
+	   

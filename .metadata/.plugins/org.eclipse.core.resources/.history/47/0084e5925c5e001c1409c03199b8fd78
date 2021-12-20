@@ -1,0 +1,21 @@
+package com.cognizantBasicsPgm;
+
+	public class FunctionPgm {
+		private String name;
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+		
+		void printData()
+		{
+			System.out.println("Student Name is "+this.getName());
+		}
+		
+
+	}
+

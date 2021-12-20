@@ -1,0 +1,4 @@
+
+public class FunctionPgm {
+System.out.println("Hai How are you");
+}

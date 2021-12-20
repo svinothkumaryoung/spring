@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.construtorCalling/src/main/resources/spring.xml&apos; to &apos;springpgm.xml&apos;" description="Rename resource &apos;spring.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/spring.xml" name="springpgm.xml" stamp="1639652431131" updateReferences="true"/>
+</session>

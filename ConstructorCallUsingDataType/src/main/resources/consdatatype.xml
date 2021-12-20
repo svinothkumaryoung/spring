@@ -1,0 +1,14 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	   
+	   <bean id="fundatatype" class="com.cognizant.constructorPgm.PojoClass">
+	   
+	  <constructor-arg type="int" value="123456789"></constructor-arg>
+	  <constructor-arg type="String" value="Vinothkumar Selvaarasan"></constructor-arg>
+	  <constructor-arg type="String" value="Chennai"></constructor-arg>
+	
+	   </bean>
+</beans>
+	   

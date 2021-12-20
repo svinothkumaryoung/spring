@@ -1,0 +1,18 @@
+package com.cognizantBasicsPgm;
+
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.io.FileSystemResource;
+
+public class MainPgm {
+
+	
+	public static void main(String[] args) {
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
+		FunctionPgm fp=(FunctionPgm) context.getBean("functionPgm1");
+		fp.printDetails();
+	}
+}

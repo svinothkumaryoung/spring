@@ -1,0 +1,18 @@
+
+package com.cognizant.jdbcpgm;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+//Program :Autowiring 
+public class MainPgm {
+
+	
+	public static void main(String[] args) {
+		ApplicationContext context=new ClassPathXmlApplicationContext("jdbcpgm.xml");
+		QueryWindows qw=(QueryWindows) context.getBean("queryWindow");
+		qw.storeStudentInfo(new studentInfo(1000,"Vinothkumar Selvaarasan","Chennai","India"));
+		
+		
+	}
+}
+

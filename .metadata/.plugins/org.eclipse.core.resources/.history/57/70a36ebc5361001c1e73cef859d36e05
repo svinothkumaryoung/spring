@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	   
+	   <bean id="studentdetails1" class="com.cognizant.autowiringpgm.StudentNaming" 
+	   autowire="byName">
+	   </bean>
+	   
+	   
+	   <bean id="vinoth" class="com.cognizant.autowiringpgm.StudentDetails">
+	   <property name="RegisterNo" value="1001"></property>
+	   <property name="name" value="vinoth"></property>
+	   <property name="address" value="chennai"></property>
+	   <property name="zipcode" value="600060"></property>   
+	   </bean>
+	   
+	     <bean id="ashok" class="com.cognizant.autowiringpgm.StudentDetails">
+	   <property name="RegisterNo" value="1002"></property>
+	   <property name="name" value="ashok"></property>
+	   <property name="address" value="karur"></property>
+	   <property name="zipcode" value="639004"></property>   
+	   </bean>
+	     <bean id="roshan" class="com.cognizant.autowiringpgm.StudentDetails">
+	   <property name="RegisterNo" value="1003"></property>
+	   <property name="name" value="roshan"></property>
+	   <property name="address" value="chennai"></property>
+	   <property name="zipcode" value="600060"></property>   
+	   </bean>
+	   
+	     <bean id="niranjan" class="com.cognizant.autowiringpgm.StudentDetails">
+	   <property name="RegisterNo" value="1004"></property>
+	   <property name="name" value="niranjan"></property>
+	   <property name="address" value="chennai"></property>
+	   <property name="zipcode" value="600060"></property>   
+	   </bean>
+	   </beans>

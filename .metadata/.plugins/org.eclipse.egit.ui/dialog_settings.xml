@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="CommitDialog.authorValues">
+		<item value="svinothkumaryoung &lt;vinchi.frnds@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="svinothkumaryoung &lt;vinchi.frnds@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="/Users/vinothkumarselvaarasan/Documents/workspace-spring-tool-suite-4-4.13.0.RELEASE/cognizant/CollectionImplementationList/.git">
+			<item value="true"/>
+			<item value="svinothkumaryoung &lt;vinchi.frnds@gmail.com&gt;"/>
+			<item value="Commit Changes&#x0D;&#x0D;Signed-off-by: svinothkumaryoung &lt;vinchi.frnds@gmail.com&gt;"/>
+			<item value="svinothkumaryoung &lt;vinchi.frnds@gmail.com&gt;"/>
+			<item value="83546e0342eb12b10b89d67c9768b47b64b121c7"/>
+			<item value="0"/>
+			<item value="false"/>
+		</list>
+		<list key="/Users/vinothkumarselvaarasan/git/repository/.git">
+			<item value="false"/>
+			<item value="vinothkumar.selvaarasan@gmail.com"/>
+			<item value="commit&#x0D;&#x0D;Change-Id: I0000000000000000000000000000000000000000&#x0D;"/>
+			<item value="Inner Bean"/>
+			<item value="0000000000000000000000000000000000000000"/>
+			<item value="0"/>
+			<item value="true"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="383"/>
+		<item key="DIALOG_Y_ORIGIN" value="209"/>
+		<item key="DIALOG_WIDTH" value="1027"/>
+		<item key="DIALOG_HEIGHT" value="445"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+</section>

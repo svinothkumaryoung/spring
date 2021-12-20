@@ -1,0 +1,19 @@
+package com.construtorCalling.pgm;
+
+import javax.naming.Context;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.cognizantBasicsPgm.FunctionPgm;
+
+public class MainClass {
+	public static void main(String args[])
+	{	
+	ApplicationContext context=new ClassPathXmlApplicationContext("springpgm.xml");
+	PojoClass fp=(PojoClass) context.getBean("fun1");
+	fp.printData();
+	}
+	
+	
+}

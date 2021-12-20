@@ -1,0 +1,39 @@
+package com.construtorCalling.pgm;
+
+public class PojoClass {
+	private String name;
+	private String Address;
+	
+	public PojoClass()
+	{
+		
+	}
+	
+	public PojoClass(String name, String address) {
+		this.name = name;
+		Address = address;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAddress() {
+		return Address;
+	}
+
+	public void setAddress(String address) {
+		Address = address;
+	}
+	
+	public void printData()
+	{
+		System.out.println("Name is "+name+" Address is "+Address);
+	}
+	
+
+}
